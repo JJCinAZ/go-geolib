@@ -1,24 +1,20 @@
 go-geolib
 =========
 
-[![Build Status](https://travis-ci.org/alouche/go-geolib.svg?branch=master)](https://travis-ci.org/alouche/go-geolib)
-[![Go Report Card](https://goreportcard.com/badge/github.com/alouche/go-geolib)](https://goreportcard.com/report/github.com/alouche/go-geolib)
-[![GoDoc](https://godoc.org/github.com/alouche/go-geolib?status.png)](https://godoc.org/github.com/alouche/go-geolib)
-
 ## About
 
 Geographical functions for Golang apps!
 
-## Scope
-Libraries/Functions/Utilities I often require in other projects!
+Copied from https://github.com/alouche/go-geolib
 
 ## installation
 
-	go get github.com/alouche/go-geolib
+	go get github.com/jjcinaz/go-geolib
 
-## API Documentation
+## Symbolism
 
-[API](https://godoc.org/github.com/alouche/go-geolib)
+    φ = latitude
+    λ = longitude
 
 ## Example Usage
 
@@ -26,7 +22,7 @@ Libraries/Functions/Utilities I often require in other projects!
 
 	import (
 		"fmt"
-		"github.com/alouche/go-geolib"
+		"github.com/jjcinaz/go-geolib"
 	)
 
 	func main() {
