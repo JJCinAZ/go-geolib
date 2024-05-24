@@ -13,8 +13,8 @@ Copied from https://github.com/alouche/go-geolib
 
 ## Symbolism
 
-    φ = latitude
-    λ = longitude
+    φ = latitude = Y
+    λ = longitude = X
 
 ## Example Usage
 

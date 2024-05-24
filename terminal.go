@@ -3,9 +3,15 @@ package geolib
 import "math"
 
 // Terminal calculates a target point from a starting point, distance, and bearing
+// Parameters:
+//   - φ1: latitude of the starting point in degrees
+//   - λ1: longitude of the starting point in degrees
+//   - distance: distance from the starting point to the target point in kilometers
+//   - bearing: bearing from the starting point to the target point in degrees (0-360)
+//
 // Result: new point
-//  - Type: float64
-// distance is in kilometers and bearing in degrees
+//   - φ2: latitude of the target point in degrees
+//   - λ2: longitude of the target point in degrees
 func Terminal(φ1, λ1, distance, bearing float64) (φ2, λ2 float64) {
 	φ1 = Deg2Rad(φ1)
 	λ1 = Deg2Rad(λ1)
